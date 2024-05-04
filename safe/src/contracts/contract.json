@@ -1,0 +1,58 @@
+{
+  "address": "0x202471D4ce4a1409489364c762Af15D5a8710A7d",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "string",
+          "name": "doc_cid",
+          "type": "string"
+        }
+      ],
+      "name": "addDoctor",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "string",
+          "name": "patient_cid",
+          "type": "string"
+        }
+      ],
+      "name": "addPatient",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getDoctor",
+      "outputs": [
+        {
+          "internalType": "string[]",
+          "name": "",
+          "type": "string[]"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getPatient",
+      "outputs": [
+        {
+          "internalType": "string[]",
+          "name": "",
+          "type": "string[]"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ]
+}
+
